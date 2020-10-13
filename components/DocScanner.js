@@ -1,11 +1,11 @@
 import React, { Component } from "react";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 
 class DocScanner extends Component {
   render() {
     return (
       <View>
-        h
+        <Text>H</Text>
       </View>
     );
   }
