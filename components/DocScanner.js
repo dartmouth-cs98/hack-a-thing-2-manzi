@@ -1,8 +1,13 @@
 import React, { Component } from "react";
-import { View, Image } from "react-native";
+import { Text, Image } from "react-native";
 
-/*
-<DocumentScanner
+import DocumentScanner from "@woonivers/react-native-document-scanner"
+
+class DocScanner extends Component {
+  render() {
+    return (
+      <View>
+        <DocumentScanner
           useBase64
           saveInAppDocument={false}
           onPictureTaken={data =>
@@ -29,16 +34,20 @@ import { View, Image } from "react-native";
           source={{ uri: `data:image/jpeg;base64,${this.props.image}` }}
           resizeMode="contain"
         />
-*/
-
-class DocScanner extends Component {
-  render() {
-    return (
-      <View>
-        k
       </View>
     );
   }
 }
+
+// class DocScanner extends Component {
+//   render() {
+
+//     return (
+//       <Image source={this.props}>
+        
+//       </Image>
+//     );
+//   }
+// }
 
 export default DocScanner;

@@ -25,7 +25,9 @@ export const HomePage = () => {
   }
   return (
     <View style={{ flex: 1 }}>
-      <Camera style={{ flex: 1 }} type={type}>
+      <Camera style={{ flex: 1 }} type={type} ref={ref => {
+        setCameraRef(ref) ;
+  }}>
         <View
           style={{
             flex: 1,
