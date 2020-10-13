@@ -56,10 +56,9 @@ export const HomePage = ({ navigation }) => {
             onPress={async () => {
               if (cameraRef) {
                 let photo = await cameraRef.takePictureAsync();
-                // console.log('photo', photo);
-                
+                navigation.push('Picture');
               }
-              navigation.push('Picture');
+              
             }}>
             <AntDesign style={styles.camera} name="camera" size={24} color="white" />
 
