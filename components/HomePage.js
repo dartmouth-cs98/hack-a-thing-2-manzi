@@ -58,7 +58,9 @@ export const HomePage = ({ navigation }) => {
             onPress={async () => {
               if (cameraRef) {
                 let photo = await cameraRef.takePictureAsync();
-                navigation.push('Picture');
+                navigation.push('Picture', {
+                  photo: photo,
+                });
               }
               
             }}>
