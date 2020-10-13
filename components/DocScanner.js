@@ -1,13 +1,8 @@
 import React, { Component } from "react";
 import { View, Image } from "react-native";
 
-import DocumentScanner from "react-native-document-scanner";
-
-class DocScanner extends Component {
-  render() {
-    return (
-      <View>
-        <DocumentScanner
+/*
+<DocumentScanner
           useBase64
           saveInAppDocument={false}
           onPictureTaken={data =>
@@ -34,6 +29,13 @@ class DocScanner extends Component {
           source={{ uri: `data:image/jpeg;base64,${this.props.image}` }}
           resizeMode="contain"
         />
+*/
+
+class DocScanner extends Component {
+  render() {
+    return (
+      <View>
+        k
       </View>
     );
   }
