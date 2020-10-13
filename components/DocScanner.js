@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import { Text, Image } from "react-native";
-
-import DocumentScanner from "@woonivers/react-native-document-scanner"
+import { View, Text } from "react-native";
 
 class DocScanner extends Component {
   render() {
