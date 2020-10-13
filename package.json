@@ -14,8 +14,9 @@
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/bottom-tabs": "^5.9.2",
     "@react-navigation/native": "^5.7.6",
+    "@react-navigation/stack": "^5.9.3",
     "@unimodules/core": "^5.5.1",
-    "expo": "^39.0.3",
+    "expo": "38.0.8",
     "expo-camera": "^9.0.0",
     "expo-status-bar": "^1.0.2",
     "react": "^16.13.1",
@@ -25,7 +26,6 @@
     "react-native-document-scanner": "^1.4.2",
     "react-native-gesture-handler": "^1.8.0",
     "react-native-reanimated": "^1.13.1",
-    "react-native-safe-area-context": "^3.1.8",
     "react-native-screens": "^2.11.0",
     "react-native-web": "^0.14.1",
     "react-navigation": "^4.4.2"
